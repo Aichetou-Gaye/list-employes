@@ -1,5 +1,6 @@
 <template>
     <div>
+      <h2>Liste des employés :</h2>
     <ol>
       <li>Employe 1</li>
       <li>Employe 2</li>
@@ -15,24 +16,28 @@
   
   <style scoped>
   div{
+    border: 2px solid rgba(131, 203, 212, 0.933);
+    border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 600px;
-    margin: 0 20%;
-    background-color: rgb(236, 226, 177);
+    width: 500px;
+    margin: auto;
+    background-color: rgb(230, 237, 240);
+    padding: 20px;
   }
   ol {
     display: flex;
     flex-direction: column;
-    gap: 50px;
   }
   li {
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: black;
+    height: 50px;
   }
   li:hover {
-    background-color: rgb(88, 42, 48);
+    background-color: rgb(6, 37, 51);
     color: white;
   }
   </style>
