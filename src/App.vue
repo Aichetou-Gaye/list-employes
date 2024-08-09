@@ -11,6 +11,7 @@ import ListEmployes from './components/ListEmployes.vue';
 
 <style scoped>
 h1{
+  font-family: Poppins;
   text-align: center;
 }
 </style>
